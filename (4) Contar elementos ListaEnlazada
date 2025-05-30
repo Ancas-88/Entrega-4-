@@ -15,7 +15,7 @@ public class App {
         numeros.add (99);
         numeros.add (888);
 
-        System.out.println("El tamaño de la lista es :"+ numeros.size());    
+        System.out.println("El tamaño de los nodos de la lista es :"+ numeros.size());    
         for (int numero = 0; numero < numeros.size(); numero++) {
             System.out.println("El elemento con indice "+ numero + " : "+ numeros.get(numero)); 
         }
